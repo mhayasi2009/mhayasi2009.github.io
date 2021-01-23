@@ -10,7 +10,7 @@ header {
 }
 main {
     height: 600px;
-    background-color: antiquewhite;
+    background-color: rgb(226, 224, 217);
     text-align: center;
     
 }
@@ -33,6 +33,17 @@ footer  P {
     float: right;
     padding: 20px;
 }
+footer  audio {
+    margin-top: 50px;
+    
+}
+footer h4 {
+    color: darkgrey;
+    margin-left: 15px;
+    margin-top: 0px;
+    
+}
+
 /* ここからコース一覧を記述*/  
 
 .menu-header-logo {
@@ -44,7 +55,7 @@ footer  P {
 }
 .menu-main {
     height: 800px;
-    background-color: antiquewhite;
+    
     text-align: center;
 }
 
