@@ -6,10 +6,12 @@
 /* スマホ用の画面 */
 @media(max-width:670px) {
     /* ここからヘッダー */
-    .fas fa-drum{
+    .fa-drum{
         display: none;
     }
-    
+    .header-login {
+        display: none;
+    }
 
     /* ここからメイン */
     .main-title {
@@ -33,4 +35,5 @@
     footer h2,h3{
         font-size: 7px;
     }
+}
 }
