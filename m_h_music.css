@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 header {
     
     background-color: seagreen;
@@ -14,7 +17,6 @@ header {
     color: rgb(250, 249, 249);
     font-size: 35px;
     text-shadow:5px 2px rgb(5, 5, 5);
-    font
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     float: left;
     line-height: 60px;
@@ -34,10 +36,11 @@ header {
 
 .header-login:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .container {
-    width:1170px;
+    width:100%;
     margin:0 auto;
     text-align: center;
     margin-top: 250px;
@@ -46,31 +49,63 @@ header {
 .container h1 {
     font-size:45px;
     text-shadow:2px 2px rgb(102, 101, 101);
-    margin-bottom:500px;
-    
+    margin-bottom:500px;  
 }
 
 li {
     list-style:none;
-    margin-bottom: 850px;
+}
+
+.list-item{
+    margin-bottom: 550px;
 }
 
 .message {
     display:none;
 }
 
-.coments {
-    float:left;
+
+/* ここからFAQ */
+.faq-container {
+    
+    width:1170px;
+    margin:0 auto;
+    text-align: center;
 }
 
+.faq-title {
+    font-size: 80px;
+    color: rgb(78, 38, 10);
+    border-bottom:2px solid rgba(211, 110, 38, 0.4);
+}
+.faq-list-item{
+    text-align: left;
+}
+.faq-list-item:hover {
+    cursor: pointer;
+}
+
+.faq-list-item h5 {
+    font-size: 20px;
+}
+.faq-list-item h6{
+    font-size: 15px;
+}
+
+
+
+
+
+/* ここからフッター */
 footer {
     color: tan;
     background-color: yellow;
-    
+    width: 100%;
 }
 
 footer h3 {
     
     text-align: right;
 }
+
 
