@@ -68,7 +68,7 @@ li {
 /* ここからFAQ */
 .faq-container {
     
-    width:1170px;
+    width:100%
     margin:0 auto;
     text-align: center;
 }
@@ -107,5 +107,3 @@ footer h3 {
     
     text-align: right;
 }
-
-
