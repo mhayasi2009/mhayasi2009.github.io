@@ -15,14 +15,14 @@
 
     /* ここからメイン */
     .main-title {
-        font-size:25px;
+        font-size:15px;
         text-shadow:2px 2px rgb(102, 101, 101);
         margin-bottom:500px;
         
     }
     /* ここからFAQ */
     .faq-title {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .faq-list-item h5 {
@@ -35,5 +35,4 @@
     footer h2,h3{
         font-size: 7px;
     }
-}
 }
