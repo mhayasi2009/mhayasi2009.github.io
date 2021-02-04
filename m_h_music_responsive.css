@@ -6,7 +6,7 @@
 /* スマホ用の画面 */
 @media(max-width:670px) {
     /* ここからヘッダー */
-    header i {
+    .fas fa-drum{
         display: none;
     }
 
@@ -14,7 +14,7 @@
     .main-title {
         font-size:25px;
         text-shadow:2px 2px rgb(102, 101, 101);
-        margin-bottom:100px;
+        margin-bottom:500px;
         
     }
     /* ここからFAQ */
