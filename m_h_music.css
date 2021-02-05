@@ -86,10 +86,19 @@ li {
 }
 
 .faq-list-item h5 {
+    
     font-size: 20px;
+    margin-bottom: 0px;
 }
 .faq-list-item h6{
+    
     font-size: 15px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.faq-answer {
+    display: none;
+    
 }
 
 
@@ -107,4 +116,3 @@ footer h3 {
     
     text-align: right;
 }
-
