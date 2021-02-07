@@ -1,26 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Music_shop</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m_h_music.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="m_h_music_responsive.css">
+    <title>m_h_music</title>
+</head>
+<body>
     <header>
-      <div class="header-logo">Music shop</div>
-        
+        <div class="header-logo">m_h_music <i class="fas fa-drum"></i> <i class="fab fa-twitter"></i></div>
+        <div class="header-login">ログイン</div>
     </header>
+
     <main>
-      <div class="main-container">
-        <img src="music_studio.jpg" alt="">
-        <p>音楽を楽しもう</p>
-        <a href="menu_.wrapper.html">入口はこちら</a>
-      </div>
+        <div class="container">
+            <h1 class="main-title">音楽を始めよう！音楽を楽しもう！</h1>
+            <ul>
+                <li class="list-item"><img src="music_studio.jpg" alt="" width="250" height="250">
+                    <p class="syoukai01 message" >スタジオでメンバーと練習しよう♪ リズムの練習にも最適です。</p>
+                </li>
+
+                <li class="list-item"><img src="concert-1748102_1280.jpg" alt="" width="250" height="250">
+                    <p class="syoukai02 message">練習の成果をLIVEで発表しましょう。
+                </li>
+
+                <li class="list-item"><img src="guitar-1836655_1280.jpg" alt="" width="250" height="250">
+                    <p class="syoukai02 message">一人での練習も大切です。<br>しっかりと練習をしましょう♪</p>
+                </li>
+
+                <li class="list-item"><img src="oosaka01.jpg" alt="" width="250" height="250">
+                    <p class="syoukai02 message">息抜きも大切です。<br><br><br>大阪と言えば・・・・・食い倒れ！！</p>
+                </li>
+            </ul>
+
+        </div>
     </main>
+    <!-- ここからFAQ -->
+    <div class="faq-wrapper">  
+        <div class="faq-container">
+            <h1 class="faq-title">F & Q</h1>
+            <ul>
+                <li class="faq-list-item">
+                    <h5 class="faq-toi">Q:まったくの初心者でも大丈夫ですか？</h5>
+                    <h6 class="faq-answer">A:ご安心ください会員の８割の方が初心者です。</h6>
+                </li>
+                <li class="faq-list-item">
+                    <h5 class="faq-toi"> Q:料金は月額いくらになりますか？</h5>
+                    <h6 class="faq-answer">A:月額９８０円となります。初月は無料です。</h6>
+                </li>
+                <li class="faq-list-item">
+                    <h5 class="faq-toi">Q:大阪のおいしい食べ物を教えてください。</h5>
+                    <h6 class="faq-answer">A:やはり、お好み焼き・たこ焼きがおすすめです。</h6>
+                </li>
+            </ul>
+        </div>
+    </div>
     <footer>
-      <p>お問い合わせ</p>
-      <audio src="GOLF_NOW.mp3" controls></audio>
-      <h4>GOLF_NOW♪</h4>
+        <h2>©m_h_music</h2>
+        
+        <h3>お問い合わせ</h3>
+        <h3>会社概要</h3>
+
     </footer>
-  </body>
+    <script src="m_h_music.js" type="text/javascript" charset="utf-8"></script>
+</body>
 </html>
