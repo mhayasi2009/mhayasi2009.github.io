@@ -9,15 +9,31 @@
     <link rel="stylesheet" href="m_h_music_responsive.css">
     <title>m_h_music</title>
 </head>
-<body>
+<body">
     <header>
         <div class="header-logo">m_h_music <i class="fas fa-drum"></i> <i class="fab fa-twitter"></i></div>
         <div class="header-login">ログイン</div>
+        <ul id="navi-list">
+            <li class="navi-btn" data-navi="#faq-title">F & Q</li>
+            <li class="navi-btn" data-navi="#main-title">ギャラリー</li>
+        </ul>
     </header>
 
     <main>
         <div class="container">
-            <h1 class="main-title">音楽を始めよう！音楽を楽しもう！</h1>
+            <!-- ログインモーダル -->
+            <div id="login-mordal-wrapper">
+                <div id="login-mordal">
+                    <p>ID・PASSを入力してください。<span id="close-mordal">✖</span></p>
+                    <h5 id="login-text">ID:</h5>
+                    <input id="login-id"type="text">
+                    <h5 id="login-text">PASS:</h5>
+                    <input id="login-pass"type="text">
+                    <button id=login-btn>ログイン</button>
+                </div>
+
+            </div>
+            <h1 class="main-title" id="main-title">音楽を始めよう！音楽を楽しもう！</h1>
             <ul>
                 <li class="list-item"><img src="music_studio.jpg" alt="" width="250" height="250">
                     <p class="syoukai01 message" >スタジオでメンバーと練習しよう♪ リズムの練習にも最適です。</p>
@@ -41,7 +57,7 @@
     <!-- ここからFAQ -->
     <div class="faq-wrapper">  
         <div class="faq-container">
-            <h1 class="faq-title">F & Q</h1>
+            <h1 class="faq-title" id="faq-title">F & Q</h1>
             <ul>
                 <li class="faq-list-item">
                     <h5 class="faq-toi">Q:まったくの初心者でも大丈夫ですか？</h5>
@@ -58,12 +74,10 @@
             </ul>
         </div>
     </div>
-    <footer>
-        <h2>©m_h_music</h2>
-        
+    <footer>       
         <h3>お問い合わせ</h3>
         <h3>会社概要</h3>
-
+        <h6 id="back-btn">©m_h_music</h6>
     </footer>
     <script src="m_h_music.js" type="text/javascript" charset="utf-8"></script>
 </body>
