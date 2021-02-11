@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 header {
     
@@ -23,6 +24,24 @@ header {
     padding:0 5px;
     
 }
+#navi-list {
+    float:right;
+    list-style:none;
+}
+
+.navi-btn {
+    color: blanchedalmond;
+    font-size: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.navi-btn:hover {
+    color: rgb(168, 155, 4);
+}
+
 
 .header-login {
     color: whitesmoke;
@@ -45,6 +64,55 @@ header {
     text-align: center;
     margin-top: 250px;
 }
+/* ログインモーダル */
+#login-mordal-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    display:none;
+}
+#login-mordal {
+    background-color: rgb(253, 244, 231);
+    position: absolute;
+    top:40%;
+    left:35%;
+    width: 25%;
+    margin:0 auto;
+    padding:15px;
+    border-radius: 5px;
+}
+#close-mordal {
+display:inline-block;
+float:right;
+cursor: pointer;
+}
+
+#login-text {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    margin-left: 18%;
+    text-align: left;
+    font-weight: normal;
+}
+
+#login-id,#login-pass {
+    width:65%;
+    
+    
+
+}
+
+#login-btn {
+    display:block;
+    width:65%;
+    margin:25px auto;
+    cursor: pointer;
+}
+
 
 .main-title {
     font-size:45px;
@@ -113,6 +181,14 @@ footer {
 }
 
 footer h3 {
-    
     text-align: right;
+}
+#back-btn {
+    font-size: 20px;
+    color: tan;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    color:rgb(92, 80, 3);
 }
