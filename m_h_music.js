@@ -1,6 +1,20 @@
 $(function(){
+    // モーダル開閉
+    $('.header-login').click(function( ){
+        $('#login-mordal-wrapper').fadeIn();
+    });
 
-    
+    $('#close-mordal').click(function( ){
+        $('#login-mordal-wrapper').fadeOut();
+    });
+
+    // headerのナヴィゲーション
+    $('.navi-btn').click(function(){
+        var id = $(this).attr('data-navi');
+        var position = $(id).offset().top;
+        $('html, body').animate({'scrollTop':position},1500);
+    })
+
     $('.list-item').hover(
         function(){
             $(this).find('.message').fadeIn(1000);
@@ -19,6 +33,12 @@ $(function(){
             $faqanswer.slideDown();
         }
     })
+    // TOPに戻る
+    $('#back-btn').click(function(){
+        $('html, body').animate({'scrollTop':0},1500)
+    });
+
+    
 
 
 });
