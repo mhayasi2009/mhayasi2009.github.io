@@ -1,6 +1,4 @@
 $(function(){
-    
-    // モーダル開閉
     $('.header-login').click(function( ){
         $('#login-mordal-wrapper').fadeIn();
     });
@@ -9,7 +7,7 @@ $(function(){
         $('#login-mordal-wrapper').fadeOut();
     });
 
-    // headerのナヴィゲーション
+    
     $('.navi-btn').click(function(){
         var id = $(this).attr('data-navi');
         var position = $(id).offset().top;
@@ -34,7 +32,7 @@ $(function(){
             $faqanswer.slideDown();
         }
     })
-    // TOPに戻る
+    
     $('#back-btn').click(function(){
         $('html, body').animate({'scrollTop':0},1500)
     });
