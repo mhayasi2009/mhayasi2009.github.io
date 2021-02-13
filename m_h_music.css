@@ -87,7 +87,7 @@ header {
 }
 #close-mordal {
 display:inline-block;
-float:right;
+float: right;
 cursor: pointer;
 }
 
@@ -117,12 +117,19 @@ cursor: pointer;
 .main-title {
     font-size:45px;
     text-shadow:2px 2px rgb(102, 101, 101);
-    margin-bottom:500px;  
+    margin-bottom:500px;
+    border:solid;  
+}
+ul {
+    
+    padding-left: 0;
+    
+    
 }
 
 li {
     list-style:none;
-}
+ }
 
 .list-item{
     margin-bottom: 550px;
