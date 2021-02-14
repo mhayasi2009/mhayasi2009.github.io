@@ -194,8 +194,12 @@ footer {
 footer h3 {
     text-align: right;
     cursor: pointer;
-    
 }
+
+footer h3;hover {
+    color: gray;
+}
+
 #back-btn {
     font-size: 20px;
     color: tan;
