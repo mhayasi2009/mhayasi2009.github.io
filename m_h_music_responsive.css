@@ -31,7 +31,7 @@
     .main-title {
         font-size:15px;
         margin-bottom:500px;
-        text-shadow: 0px;
+        text-shadow: none;
     }
 
     /* ギャラリー */
