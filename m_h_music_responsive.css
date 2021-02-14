@@ -6,6 +6,20 @@
 /* スマホ用の画面 */
 @media(max-width:670px) {
     /* ここからヘッダー */
+    .header-logo {
+        color: rgb(250, 249, 249);
+        font-size: 15px;
+        text-shadow:5px 2px rgb(5, 5, 5);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        float: left;
+        line-height: 60px;
+        padding:0 5px;
+        cursor: pointer;
+    }
+    .header-logo:hover {
+        opacity:0.6
+    }
+
     .fa-drum{
         display: none;
     }
@@ -16,10 +30,17 @@
     /* ここからメイン */
     .main-title {
         font-size:15px;
-        text-shadow:1px 1px rgb(102, 101, 101);
+        text-shadow:1
+        px 1px rgb(102, 101, 101);
         margin-bottom:500px;
         
     }
+    /* ギャラリー */
+    .message {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
     /* ここからFAQ */
     .faq-title {
         font-size: 15px;
@@ -34,5 +55,6 @@
     /* ここからフッター */
     footer h2,h3{
         font-size: 7px;
+        
     }
 }
