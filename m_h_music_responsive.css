@@ -32,7 +32,7 @@
         font-size:15px;
         margin-bottom:500px;
     }
-    
+
     /* ギャラリー */
     .message {
         font-size: 12px;
@@ -45,13 +45,13 @@
     }
 
     .faq-list-item h5 {
-        font-size: 10px;
+        font-size: 12px;
     }
     .faq-list-item h6{
-        font-size: 7px;
+        font-size: 9px;
     }
     /* ここからフッター */
-    footer h2,h3{
+    footer h6,h3{
         font-size: 7px;
         
     }
