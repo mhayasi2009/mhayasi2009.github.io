@@ -31,7 +31,7 @@
     .main-title {
         font-size:15px;
         margin-bottom:500px;
-        text-shadow: 0;
+        text-shadow: 0px;
     }
 
     /* ギャラリー */
@@ -52,7 +52,7 @@
         font-size: 9px;
     }
     /* ここからフッター */
-    footer h6,h3{
+    footer h3{
         font-size: 7px;
         
     }
