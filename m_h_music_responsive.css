@@ -40,6 +40,13 @@
         font-weight: bold;
     }
 
+    img {
+        width: 150px;
+
+        height: 150px;
+
+    }
+
     /* ここからFAQ */
     .faq-title {
         font-size: 15px;
@@ -53,7 +60,7 @@
     }
     /* ここからフッター */
     footer h3{
-        font-size: 7px;
+        font-size: 9px;
         
     }
 }
