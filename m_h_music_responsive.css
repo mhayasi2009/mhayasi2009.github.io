@@ -41,9 +41,9 @@
     }
 
     img {
-        width: 50px;
+        width: 150px;
 
-        height: 50px;
+        height: 150px;
 
     }
 
@@ -60,6 +60,7 @@
     }
     /* ここからフッター */
     footer h3{
-        font-size: 19px;
+        font-size: 15px;
     }
+
 }
