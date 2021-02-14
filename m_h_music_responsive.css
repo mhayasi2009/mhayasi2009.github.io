@@ -8,8 +8,8 @@
     /* ここからヘッダー */
     .header-logo {
         color: rgb(250, 249, 249);
-        font-size: 15px;
-        text-shadow:5px 2px rgb(5, 5, 5);
+        font-size: 20px;
+        text-shadow:2px 1px rgb(5, 5, 5);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
         float: left;
         line-height: 60px;
@@ -30,14 +30,14 @@
     /* ここからメイン */
     .main-title {
         font-size:15px;
-        text-shadow:1
+        
         px 1px rgb(102, 101, 101);
         margin-bottom:500px;
         
     }
     /* ギャラリー */
     .message {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
     }
 
