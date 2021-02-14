@@ -30,11 +30,9 @@
     /* ここからメイン */
     .main-title {
         font-size:15px;
-        
-        px 1px rgb(102, 101, 101);
         margin-bottom:500px;
-        
     }
+    
     /* ギャラリー */
     .message {
         font-size: 12px;
