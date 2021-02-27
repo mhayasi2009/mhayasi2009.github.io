@@ -144,11 +144,46 @@ li img {
     display:none;
 }
 
+/* ここからPICK-UP */
+.pick-up-wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.pick-up-container {
+    width: 100%;
+    height: auto;
+    background-color: ghostwhite;
+}
+
+.pick-up-title {
+    width: 50%;
+    margin:0 auto;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.pick-up-photo {
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.pick-up-profile {
+    width:50%;
+    margin: 0 0 0 45%; 
+    text-align: left;
+    font-size: 22PX;
+    
+}
+
+
 
 /* ここからFAQ */
 .faq-container {
     
-    width:100%
+    width:100%;
     margin:0 auto;
     text-align: center;
 }
