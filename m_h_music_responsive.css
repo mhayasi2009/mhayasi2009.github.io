@@ -47,6 +47,15 @@
 
     }
 
+    /* ここからPick-up */
+    .pick-up-title {
+        font-size: 15px;
+    }
+
+    .pick-up-profile {
+        font-size: 12px;
+    }
+
     /* ここからFAQ */
     .faq-title {
         font-size: 15px;
